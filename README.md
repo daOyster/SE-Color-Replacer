@@ -1,2 +1,2 @@
 # SE-Color-Replacer
-A tool to replace colors on in a blueprint for the game Space Engineers.
+A tool to replace colors in a blueprint file for the game Space Engineers.
