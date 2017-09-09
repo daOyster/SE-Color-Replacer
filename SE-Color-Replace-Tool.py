@@ -108,8 +108,7 @@ def doColorChange( bpPath):
 
 	# write the new blueprint file containing the updaterd hsv mask
 	tree.write(os.path.normpath( bpPath + '/bpn.sbc'))
-	# rename .bspPB file so that Space Engineers will generate a new one on next ship load
-# todo: Add os.path.normpath( bpPath + /bp******) lines to fix issues with file path
+	# rename .bspPB file so that Space Engineers will generate a new one on next ship load	
 	try:
 
 		os.remove(os.path.normpath(bpPath +'/old_bp.sbc'))
